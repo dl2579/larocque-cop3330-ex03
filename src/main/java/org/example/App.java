@@ -19,6 +19,7 @@ public class App
         String author = scanner.nextLine();
 
         //System.out.printf("\"test\"");
-        System.out.printf("%s says, \"%s\"%n", author, quote);
+        //System.out.printf("%s says, \"%s\"%n", author, quote);
+        System.out.println(author + " says, \"" + quote + "\"");
     }
 }
